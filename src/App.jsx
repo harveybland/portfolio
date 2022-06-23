@@ -1,10 +1,10 @@
 import React from 'react';
-import { Typography } from '@mui/material';
+import Intro from './components/intro/Intro';
 
 const App = () => {
   return (
     <div>
-      <Typography varient='h1'>Hello, World</Typography>
+      <Intro />
     </div>
   );
 };
