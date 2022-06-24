@@ -1,17 +1,36 @@
+import Me from './img/me.jpg';
+import CaffeNero from './img/caffe-nero.png';
+import AuroraBeauty from './img/aurora-beauty.png';
+
 export const products = [
   {
     id: 1,
-    img: '/static/media/aurora-beauty.c74e6039717502b23277.png',
+    img: AuroraBeauty,
     link: '/',
   },
   {
     id: 2,
-    img: '/static/media/aurora-beauty.c74e6039717502b23277.png',
+    img: CaffeNero,
     link: '/',
   },
   {
     id: 3,
-    img: '/static/media/me.cf2fd1b16e5227315d38.jpg',
+    img: Me,
+    link: '/',
+  },
+  {
+    id: 4,
+    img: CaffeNero,
+    link: '/',
+  },
+  {
+    id: 5,
+    img: AuroraBeauty,
+    link: '/',
+  },
+  {
+    id: 6,
+    img: Me,
     link: '/',
   },
 ];
