@@ -11,7 +11,7 @@ const Product = ({ img, link }) => {
       <a href={link}>
         <img
           src={img}
-          tagrget='_blank'
+          target='_blank'
           rel='noreferrer'
           alt=''
           className='p-img'
