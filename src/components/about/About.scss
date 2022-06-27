@@ -64,3 +64,28 @@
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  .a {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    height: 65vh;
+    .a-left {
+      width: 100%;
+      .a-card {
+        height: 30vh;
+        &.bg {
+          display: none;
+        }
+      }
+    }
+
+    .a-right {
+      padding: 20px;
+      .a-award {
+        display: none;
+      }
+    }
+  }
+}

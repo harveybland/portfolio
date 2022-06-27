@@ -31,41 +31,11 @@ export const products = [
     img: Coffee1,
     link: 'https://careers.coffee1.co.uk/search',
   },
-  {
-    id: 6,
-    img: AuroraBeauty,
-    link: 'https://aurora-beauty-test.netlify.app/home',
-  },
 ];
 
 export const productsTwo = [
   {
     id: 1,
-    img: AuroraBeauty,
-    link: 'https://careers.caffenero.com/search',
-  },
-  {
-    id: 2,
-    img: Matalan,
-    link: 'https://matalan.jobs/search',
-  },
-  {
-    id: 3,
-    img: Fabory,
-    link: 'https://fabory.team.careers/search',
-  },
-  {
-    id: 4,
-    img: Swansway,
-    link: 'https://careers.swanswaygarages.com/search',
-  },
-  {
-    id: 5,
-    img: Coffee1,
-    link: 'https://careers.coffee1.co.uk/search',
-  },
-  {
-    id: 6,
     img: AuroraBeauty,
     link: 'https://aurora-beauty-test.netlify.app/home',
   },
