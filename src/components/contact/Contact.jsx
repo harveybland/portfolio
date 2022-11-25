@@ -1,5 +1,4 @@
 import './Contact.scss';
-import Me from '../../img/me.jpg';
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -35,16 +34,16 @@ const Contact = () => {
           <h1 className='c-title'>Lets discuss your project</h1>
           <div className='c-info'>
             <div className='c-info-item'>
-              <img src={Me} alt='' className='c-icon' />
+              <span class='material-symbols-outlined'>call</span>
               07957 445590
             </div>
             <div className='c-info-item'>
-              <img src={Me} alt='' className='c-icon' />
-              hrbland34@gmail.com
+              <span class='material-symbols-outlined'>mail</span>
+              hrbland43@gmail.com
             </div>
             <div className='c-info-item'>
-              <img src={Me} alt='' className='c-icon' />
-              43 alma avenue, foulridge, bb8 7ns UK
+              <span class='material-symbols-outlined'>home</span>
+              43 Alma Avenue, Foulridge, BB8 7NS
             </div>
           </div>
         </div>

@@ -4,6 +4,7 @@ import Matalan from './img/matalan.png';
 import Coffee1 from './img/coffee-1.png';
 import Swansway from './img/swansway.png';
 import AuroraBeauty from './img/aurora-beauty.png';
+import cityPlumbing from './img/city-plumbing.png';
 
 export const products = [
   {
@@ -31,11 +32,21 @@ export const products = [
     img: Coffee1,
     link: 'https://careers.coffee1.co.uk/search',
   },
+  {
+    id: 6,
+    img: cityPlumbing,
+    link: 'https://search.cityplumbingcareers.co.uk/search',
+  },
 ];
 
 export const productsTwo = [
   {
     id: 1,
+    img: AuroraBeauty,
+    link: 'https://aurora-beauty-test.netlify.app/home',
+  },
+  {
+    id: 2,
     img: AuroraBeauty,
     link: 'https://aurora-beauty-test.netlify.app/home',
   },

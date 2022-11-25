@@ -21,7 +21,7 @@ const About = () => {
           aliquam alias repudiandae voluptatibus cupiditate quidem, ex rem
           architecto quia asperiores porro beatae!
         </p>
-        <div className='a-award'>
+        {/* <div className='a-award'>
           <img src={Me} alt='' className='a-award-img' />
           <div className='a-award-texts'>
             <h4 className='a-award-title'>International Design</h4>
@@ -32,7 +32,7 @@ const About = () => {
               inventore eligendi! Quam dolore cum fuga!
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
